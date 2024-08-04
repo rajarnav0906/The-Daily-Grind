@@ -1,2 +1,20 @@
-# The-Daily-Grind
-This is a dynamic blog platform where users can effortlessly perform CRUD operations, empowering them to Create, Read, Update, and Delete blog posts, ensuring a seamless and interactive blogging experience.
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+
+## to start a `json server` write the command
+
+npx json-server --watch data/db.json --port 8000

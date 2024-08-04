@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+  margin: 0;
+  font-family: "Quicksand", "Helvetica Neue";
+  color: #333;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+  border-bottom: 2px solid #eee9e9;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 15px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar h1{
+  color: #f1356d;
+  font-size: 40px;
+}
+.navbar :hover{
+  color: #f1356d;
+}
+.content{
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 2px solid #eee9e9;
+}
+.blog-preview *{
+  margin: 5px;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2{
+  font-size: 25px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-preview a{
+  text-decoration: none;
+  color: #f1356d;
+}
+
+.blog-details{
+  padding: 10px 16px;
+  margin: 20px 0;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-details h2{
+  font-size: 30px;
+  color: #f1356d;
+  margin: 20px 0;
+}
+.blog-details p{
+  font-size: 18px;
+  margin: 20px 0;
+}
+.blog-details p span{
+  font-weight: bold;
+}
+.blog-details button{
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1356d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.create{
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin: 30px;
+}
+.create input, .create select, .create textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eee9e9;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: block;
+  box-sizing: border-box;
+}
+.create button{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1356d;
+  color: #fff;
+  cursor: pointer;
+}
